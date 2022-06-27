@@ -1,0 +1,32 @@
+@media screen and (max-width: 799px) {
+    .skills__block {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .skills__box {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .skills__block {
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    .nav {
+        display: none;
+    }
+
+    .header__lang {
+        display: none;
+    }
+    .skills__block {
+        margin-right: 0;
+    }
+    .portfolio__link {
+        font-size: 14px;
+    }
+}
